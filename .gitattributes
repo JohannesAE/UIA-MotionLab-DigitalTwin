@@ -1,0 +1,5 @@
+# Treat STEP files as binary (so Git won't alter line endings)
+*.STEP binary
+*.step binary
+*.STP  binary
+*.stp  binary
