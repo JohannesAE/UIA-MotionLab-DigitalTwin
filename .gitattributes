@@ -3,3 +3,4 @@
 *.step binary
 *.STP  binary
 *.stp  binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text
