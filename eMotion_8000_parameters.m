@@ -1,3 +1,11 @@
+%% eMotion-8000 Stewart Platform
+VarBig.BF2ShaftJointDist = 58-8; %mm
+VarBig.test = 1; 
+VarBig.Shaft2BaseRot = -90; %deg
+VarBig.TransCyl = 815; %mm
+VarBig.CylStart = 0; %m
+VarBig.Switch = 0;
+
 %% EMotion_8000_DummyloadTriangle_DataFile
 %============= RigidTransform =============%
 

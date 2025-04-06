@@ -1,3 +1,11 @@
+ %% eMotion-1500 Stewart Platform
+Var.BF2ShaftJointDist = 58-8; %mm
+Var.test = 1; 
+Var.Shaft2BaseRot = -90; %deg
+Var.TransCyl = 815; %mm
+Var.CylStart = 0.0; %m
+Var.Switch = 0;
+
 %% GENERIC_14_1000_SRM_CustomerAssembly_02_DenLILLE_DataFile
 %============= RigidTransform =============%
 

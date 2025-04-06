@@ -1,7 +1,3 @@
-clc;
-clear all;
-close all;
-
 %Add path to custom libraries
 addpath("mr\")
 

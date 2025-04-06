@@ -1,0 +1,21 @@
+# MATLAB backup files (created when editing files)
+*.asv
+
+# MATLAB compiled MEX files (platform-specific binaries)
+*.mex*
+*.mexa64
+*.mexw64
+*.mexmaci64
+
+# Simulink auto-generated files and caches
+slprj/
+*.slxc
+
+# Simulink autosave copies of models (avoid saving these temporary files)
+*.autosave
+
+#ignore speedgoat
+/speedgoat_IK
+
+# Folders to untrack and ignore
+Paper diagrams/
