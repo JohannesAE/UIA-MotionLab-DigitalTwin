@@ -8,8 +8,8 @@
 *.mexmaci64
 
 # Simulink auto-generated files and caches
-slprj/                # Folder with simulation and code-generation artifacts
-*.slxc                # Compiled Simulink cache files
+slprj/                  # Folder with simulation and code-generation artifacts
+*.slxc                  # Compiled Simulink cache files
 
 # Simulink autosave copies of models (avoid saving these temporary files)
 *_autosave.slx
@@ -17,6 +17,10 @@ slprj/                # Folder with simulation and code-generation artifacts
 #ignore speedgoat
 /speedgoat_IK
 
+# Folders to untrack and ignore
+Paper diagrams/
+mr/
+
 # (Optional) Other temporary or output folders you might generate:
-# build/              # If you have a build folder for generated code or reports
-# output/             # For simulation outputs that shouldn't be tracked
+# build/                  # If you have a build folder for generated code or reports
+# output/                 # For simulation outputs that shouldn't be tracked
