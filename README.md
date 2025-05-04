@@ -1,4 +1,4 @@
-# UIA-The Norwegian MotionLab - DigitalTwin
+![MotionLab](Images/motion-lab.png)
 ## Introduction
 
 This repository is associated with the paper *"Rapid Model-Based Design and Real-Time Digital Twin Integration: An Offshore Robot Case Study"* (link to be added upon publication), conducted at the Norwegian Motion Laboratory at the University of Agder (UiA).  
