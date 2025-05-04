@@ -40,10 +40,7 @@ This guide provides a quick overview of the necessary steps to set up communicat
    If you do not already have a compiler installed, use the link above to install the correct version.
 
 Install the SLRT support package using the MATLAB Add-Ons Explorer.  
-Download the Speedgoat I/O Blockset and install it by extracting the ZIP file, navigating to the root folder, and running the Speedgoat setup script:
-
-```matlab
->> speedgoat_setup
+Download the Speedgoat I/O Blockset and install it by extracting the ZIP file, navigating to the root folder, and running the Speedgoat setup script "speed-goat_setup"
 
 For visual instructions, refer to the [official Speedgoat installation video](https://www.speedgoat.com/knowledge-center/simulink-real-time-basics/part-1-installing-required-software).
 
