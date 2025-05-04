@@ -23,9 +23,39 @@ The repository includes three Simulink Multibody models developed in MATLAB 2024
 
 These models were originally developed during the [Mechatronics MSc thesis by Thomas Eikeland](https://github.com/UiAMotionLab/Simulink-Simulator/tree/main), and have since been further expanded for hardware interfacing purposes by Johannes A. Eidsvik.
 
-## Connection Guide
-# Required software 
+## Speedgoat Connection Guide
 
+This guide provides a quick overview of the necessary steps to set up communication between your development PC and the Speedgoat real-time target unit. It covers the required software, installation instructions, and network configuration.
+
+## Required Software
+
+1. **Speedgoat I/O Blockset**  
+   - To access this, either contact Daniel Hagen (Leader of the Motion Laboratory) or create a Speedgoat Customer Portal account.
+
+2. **[Simulink Real-Time Target Support Package (SLRT)](https://www.mathworks.com/matlabcentral/fileexchange/76387-simulink-real-time-target-support-package)**  
+   - Install via the MATLAB Add-Ons Explorer.
+
+3. **Supported C Compiler**  
+   - [Visual Studio 2015, 2017, 2019, or 2022](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#visual-studio-2015-2017-2019-and-2022)  
+   If you do not already have a compiler installed, use the link above to install the correct version.
+
+Install the SLRT support package using the MATLAB Add-Ons Explorer.  
+Download the Speedgoat I/O Blockset and install it by extracting the ZIP file, navigating to the root folder, and running the Speedgoat setup script:
+
+```matlab
+>> speedgoat_setup
+
+For visual instructions, refer to the [official Speedgoat installation video](https://www.speedgoat.com/knowledge-center/simulink-real-time-basics/part-1-installing-required-software).
+
+## Development PC Ethernet Configuration
+
+To connect to the Speedgoat, you will need to configure your development PC’s Ethernet adapter:
+
+- Set a **static IPv4 address** of `192.168.1.11` for the adapter connected to the Speedgoat.
+- Connect your development PC directly to the Speedgoat's **Host Link** port using an Ethernet cable.
+
+> **Note:**  
+> There is a pre-labeled Ethernet cable (`SG-Hostlink`) available on the table in the MotionLab that is connected to the Host Link port.stlink.
 
 [![Comau Visualization](Images/Comau_Visualization.gif)](https://www.youtube.com/watch?v=klBl6_7pW4A)
 
