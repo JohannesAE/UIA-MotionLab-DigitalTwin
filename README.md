@@ -54,7 +54,9 @@ To connect to the Speedgoat, you will need to configure your development PC’s 
 > **Note:**  
 > There is a pre-labeled Ethernet cable (`SG-Hostlink`) available on the table in the MotionLab that is connected to the Host Link port.stlink.
 
-Try to ping the Speedgoat at `192.168.1.5`
+ Test the connection by pinging the Speedgoat at `192.168.1.5`. If you receive a response, the connection is configured correctly.
+
+ ## 
 
 [![Comau Visualization](Images/Comau_Visualization.gif)](https://www.youtube.com/watch?v=klBl6_7pW4A)
 
